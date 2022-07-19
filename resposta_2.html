@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Curso JavaScript Progressivo</title>
+
+   <script type="text/javascript">
+        let a = 0;
+        let b = 1;
+        let fib;
+        let x = 0;
+
+        var n = prompt('Informe um número: ');
+
+        for(let i = 1; i <= 15; i++){
+            if(i == 1) {
+                console.log(a);
+            } else if(i == 2) {
+                console.log(b);
+            } else {
+                fib = a + b;
+                a = b;
+                b = fib;
+                console.log(fib);
+            }
+
+            if(n == fib){
+                x++;
+            }
+        }
+
+        if (x == 1) {
+            console.log('Pertence a sequencia!');
+        } else {
+            console.log('Nao pertence a sequencia!');
+        }
+
+   </script>
+
+ </head>
+</html>

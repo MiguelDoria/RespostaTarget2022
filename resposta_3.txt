@@ -1,0 +1,6 @@
+a) O número seguinte é 9, pois se trata dos números ímpares.
+b) O número seguinte é 128, pois se trata do dobro do número anterior.
+c) O número seguinte é 49, pois se trata de uma sequência de números quadrados.
+d) O número seguinte é 100, pois se trata de uma progressão aritmética.
+e) O número seguinte é 13, pois se trata da soma dos dois números anteriores.
+f) O número seguinte é 200, pois é uma sequência de números com a letra D.
